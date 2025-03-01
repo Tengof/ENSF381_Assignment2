@@ -53,7 +53,7 @@ footer {
 #username, #password {
     background-color: lightyellow;
     padding: 10px;
-      border-radius: 5px;
+    border-radius: 5px;
     border: 3px solid darkgrey;
 }
 
@@ -139,4 +139,9 @@ select {
     box-shadow: none;
     border: none;
     visibility: hidden;
+}
+
+.student {
+    border: 1px solid black;
+    border-radius: 100%;
 }
