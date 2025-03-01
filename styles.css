@@ -5,6 +5,7 @@ header {
     margin: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav {
@@ -36,4 +37,70 @@ footer {
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+select {
+    background-color: lightyellow;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.courseTiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+.courseTile {
+    background-color: #e6f2ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 25%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.courseTile img {
+    max-width: 100%;
+    height: auto;
+}
+
+.acceptButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.acceptButton:hover {
+    background-color: #265e28;
+}
+
+.declineButton {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.declineButton:hover {
+    background-color: #821b1b;
+}
+
+.courseTile.placeholder {
+    background: none;
+    box-shadow: none;
+    border: none;
+    visibility: hidden;
 }
